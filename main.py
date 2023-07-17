@@ -106,7 +106,7 @@ class Face_Recognition_System:
         tra_b1_1.place(x=250, y=510, width=180, height=45)
 
         # Photo   button 6
-        pho_img_btn = Image.open(r"Images_GUI\Photos.jpg")
+        pho_img_btn = Image.open(r"Images_GUI\images.png")
         pho_img_btn = pho_img_btn.resize((180, 180), Image.Resampling.LANCZOS)
         self.pho_img1 = ImageTk.PhotoImage(pho_img_btn)
 
@@ -130,7 +130,7 @@ class Face_Recognition_System:
         dev_b1_1.place(x=710, y=510, width=180, height=45)
 
         # exit   button 8
-        exi_img_btn = Image.open(r"Images_GUI\exi.jpg")
+        exi_img_btn = Image.open(r"Images_GUI\exit.jpg")
         exi_img_btn = exi_img_btn.resize((180, 180), Image.Resampling.LANCZOS)
         self.exi_img1 = ImageTk.PhotoImage(exi_img_btn)
 

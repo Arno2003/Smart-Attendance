@@ -1,4 +1,4 @@
-![attemdance pannel](https://github.com/Arno2003/Smart-Attendance/assets/107431707/13fc4a08-8fea-4067-b0b8-8fe252088a16)# Smart-Attendance
+# Smart-Attendance
 Smart Attendance system using facial recognition.
 For face recognition haarcascade-frontalface-recognition algorithm is used.
 

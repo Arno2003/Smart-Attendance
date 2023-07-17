@@ -66,8 +66,6 @@ class ChatBot:
         greetings = ["hi", "hello", "hey", "hey there", "whats up", "yo", "excuse me"]
         if self.entry.get() in greetings:
             self.text.insert(END, '\n\n Sonic : ' + "Hey there, how can I help you?")
-            self.text.insert(END, '\n\n 1 -> ')
-
 
         else:
             self.text.insert(END, '\n\n Sonic : ' + "Sorry I didn't get it")

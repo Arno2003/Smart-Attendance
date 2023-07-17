@@ -38,7 +38,7 @@ class Face_Recognition_System:
 
         # title section
         title_lb1 = Label(bg_img, text="Attendance Managment System Using Facial Recognition",
-                          font=("verdana", 30, "bold"), bg="white", fg="navyblue")
+                          font=("verdana", 30, "bold"), bg="#FFF9C9", fg="navyblue")
         title_lb1.place(x=0, y=0, width=1366, height=45)
 
         # Create buttons below the section
@@ -52,7 +52,7 @@ class Face_Recognition_System:
         std_b1.place(x=250, y=100, width=180, height=180)
 
         std_b1_1 = Button(bg_img, command=self.student_pannels, text="Student Pannel", cursor="hand2",
-                          font=("tahoma", 15, "bold"), bg="white", fg="navyblue")
+                          font=("tahoma", 15, "bold"), bg="#FFF9C9", fg="navyblue")
         std_b1_1.place(x=250, y=280, width=180, height=45)
 
         # Detect Face  button 2
@@ -64,7 +64,7 @@ class Face_Recognition_System:
         det_b1.place(x=480, y=100, width=180, height=180)
 
         det_b1_1 = Button(bg_img, command=self.face_rec, text="Face Detector", cursor="hand2",
-                          font=("tahoma", 15, "bold"), bg="white", fg="navyblue")
+                          font=("tahoma", 15, "bold"), bg="#FFF9C9", fg="navyblue")
         det_b1_1.place(x=480, y=280, width=180, height=45)
 
         # Attendance System  button 3
@@ -76,7 +76,7 @@ class Face_Recognition_System:
         att_b1.place(x=710, y=100, width=180, height=180)
 
         att_b1_1 = Button(bg_img, command=self.attendance_pannel, text="Attendance", cursor="hand2",
-                          font=("tahoma", 15, "bold"), bg="white", fg="navyblue")
+                          font=("tahoma", 15, "bold"), bg="#FFF9C9", fg="navyblue")
         att_b1_1.place(x=710, y=280, width=180, height=45)
 
         # Help  Support  button 4
@@ -87,7 +87,7 @@ class Face_Recognition_System:
         hlp_b1 = Button(bg_img, command=self.chat, image=self.hlp_img1, cursor="hand2", )
         hlp_b1.place(x=940, y=100, width=180, height=180)
 
-        hlp_b1_1 = Button(bg_img, command=self.chat, text="Help Support", cursor="hand2", font=("tahoma", 15, "bold"), bg="white", fg="navyblue")
+        hlp_b1_1 = Button(bg_img, command=self.chat, text="Help Support", cursor="hand2", font=("tahoma", 15, "bold"), bg="#FFF9C9", fg="navyblue")
         hlp_b1_1.place(x=940, y=280, width=180, height=45)
 
         # Top 4 buttons end.......
@@ -102,7 +102,7 @@ class Face_Recognition_System:
         tra_b1.place(x=250, y=330, width=180, height=180)
 
         tra_b1_1 = Button(bg_img, command=self.train_pannels, text="Data Train", cursor="hand2",
-                          font=("tahoma", 15, "bold"), bg="white", fg="navyblue")
+                          font=("tahoma", 15, "bold"), bg="#FFF9C9", fg="navyblue")
         tra_b1_1.place(x=250, y=510, width=180, height=45)
 
         # Photo   button 6
@@ -114,7 +114,7 @@ class Face_Recognition_System:
         pho_b1.place(x=480, y=330, width=180, height=180)
 
         pho_b1_1 = Button(bg_img, command=self.open_img, text="Photos", cursor="hand2", font=("tahoma", 15, "bold"),
-                          bg="white", fg="navyblue")
+                          bg="#FFF9C9", fg="navyblue")
         pho_b1_1.place(x=480, y=510, width=180, height=45)
 
         # Developers   button 7
@@ -126,7 +126,7 @@ class Face_Recognition_System:
         dev_b1.place(x=710, y=330, width=180, height=180)
 
         dev_b1_1 = Button(bg_img, command=self.developr, text="Developers", cursor="hand2", font=("tahoma", 15, "bold"),
-                          bg="white", fg="navyblue")
+                          bg="#FFF9C9", fg="navyblue")
         dev_b1_1.place(x=710, y=510, width=180, height=45)
 
         # exit   button 8
@@ -138,7 +138,7 @@ class Face_Recognition_System:
         exi_b1.place(x=940, y=330, width=180, height=180)
 
         exi_b1_1 = Button(bg_img, command=self.exit, text="Exit", cursor="hand2", font=("tahoma", 15, "bold"),
-                          bg="white", fg="navyblue")
+                          bg="#FFF9C9", fg="navyblue")
         exi_b1_1.place(x=940, y=510, width=180, height=45)
 
     # ==================Funtion for Open Images Folder==================
